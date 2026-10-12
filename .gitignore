@@ -1,0 +1,50 @@
+# ── macOS / Windows ──
+.DS_Store
+Thumbs.db
+
+# ── Node ──
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/
+.pnp.*
+
+# ── React Native / Metro / Hermes ──
+*.jsbundle
+*.jsbundle.map
+*.hbc
+*.hbc.map
+
+# ── Android / Gradle ──
+build/
+.gradle/
+.idea/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystores: ignore everything except the shared debug keystore
+# (debug.keystore is committed so `assembleDebug` works straight after clone)
+*.keystore
+*.jks
+!debug.keystore
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Env / secrets ──
+.env
+.env.*
+
+# ── Editors ──
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~

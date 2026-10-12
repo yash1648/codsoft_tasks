@@ -1,0 +1,19 @@
+{
+  "name": "attendance-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "cd android && ./gradlew assembleDebug",
+    "build:android": "cd android && ./gradlew assembleDebug --no-daemon"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.4",
+    "react-native-sqlite-storage": "^6.0.1"
+  },
+  "devDependencies": {
+    "@react-native/babel-preset": "^0.73.21",
+    "@react-native/metro-config": "^0.73.5"
+  }
+}
